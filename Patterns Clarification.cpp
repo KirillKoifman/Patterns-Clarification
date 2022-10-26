@@ -232,8 +232,8 @@ int main(int argc, char* argv[]) //argc - argumnet counter, argv - argument valu
         for (int i = 0;i < height;i++) 
         {
             for (int j = 0;j < width;j++) 
-                for (int pattern = 0;pattern < clusterPatternsNum;pattern++) 
                 std::cout << classesObjectsMatrix[stepVal][0].core[i][j] << "\t";
+            
             std::cout << '\n';
         }
 
