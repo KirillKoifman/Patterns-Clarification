@@ -118,7 +118,7 @@ void countEM(std::vector<std::vector<double>>& M)
     double temp;
     
     //объявляем единичную матрицу
-    std::vector<std::vector<float>> E(M.size(), std::vector<float>(M.size(), 0.0));
+    std::vector<std::vector<double>> E(M.size(), std::vector<double>(M.size(), 0.0));
 
     //определяем единичную матрицу E и складываем с матрицей ковариации S
     for (int i = 0; i < M.size(); i++)
@@ -334,13 +334,13 @@ int main(int argc, char* argv[]) //argc - argumnet counter, argv - argument valu
                 classesObjectsMatrix[stepVal][0].core[i][j] /= clusterPatternsNum;
                 std::cout << classesObjectsMatrix[stepVal][0].core[i][j] << "\t";
             }
-            std::cout << std::endl;
+            std::cout << '\n';
         }
 
         for (int i = 0; i < 75; i++)
             std::cout << "_";
 
-        std::cout << std::endl;
+        std::cout << '\n';
         if(stepVal!=clustersNum)
         ++stepVal;
 
