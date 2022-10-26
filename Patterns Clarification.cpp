@@ -8,7 +8,7 @@ using namespace tinyxml2;
 
 struct Cluster
 {
-    std::vector<std::vector<double>> coordinates; // координата образа
+    std::vector<std::vector<double>> coordinates; // координаты образа(шаблона)
     std::vector<std::vector<double>> coordinates_diff; // разность координат объекта и ядра класса
     std::vector<std::vector<double>> covariational_matrix; // матрица ковариации
     std::vector<std::vector<double>> ucS; // (x-y)^T * (S+E)^(-1) (неполное значенеи EM_distance)
