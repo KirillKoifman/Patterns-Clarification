@@ -1,2 +1,2 @@
 # Patterns-Clarification
-YouTube: https://youtu.be/6ipA3_r2Y
+YouTube: https://youtu.be/fFp5lPijcBo
