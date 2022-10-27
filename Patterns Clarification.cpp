@@ -7,6 +7,7 @@
 
 using namespace tinyxml2;
 
+//данная структура предназначена для описания каждого кластера 
 struct Cluster
 {
     std::vector<std::vector<double>> coordinates; // координаты образа(шаблона)
